@@ -1,0 +1,4 @@
+# Custom blocklist for Pi-hole.
+# One entry per line, written as ||example.com^ so the domain and all its
+# subdomains are blocked. Lines starting with # are comments.
+# Subscribe to this file's raw URL in Pi-hole as a blocklist.

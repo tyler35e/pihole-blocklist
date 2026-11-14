@@ -1,0 +1,48 @@
+# Custom allowlist for Pi-hole.
+# One entry per line, written as @@||example.com^ so the domain and all its
+# subdomains are never blocked, even if a public list includes them.
+# Lines starting with # are comments.
+# Subscribe to this file's raw URL in Pi-hole as an allowlist.
+
+# Google
+@@||google.com^
+@@||googleapis.com^
+@@||gstatic.com^
+@@||googleusercontent.com^
+
+# Apple
+@@||apple.com^
+@@||icloud.com^
+@@||mzstatic.com^
+
+# Microsoft
+@@||microsoft.com^
+@@||microsoftonline.com^
+@@||live.com^
+@@||office.com^
+@@||windows.com^
+
+# GitHub
+@@||github.com^
+@@||githubusercontent.com^
+@@||githubassets.com^
+
+# Cloudflare
+@@||cloudflare.com^
+
+# Cursor
+@@||cursor.com^
+@@||cursor.sh^
+
+# AI assistants
+@@||anthropic.com^
+@@||claude.ai^
+@@||claude.com^
+@@||openai.com^
+@@||chatgpt.com^
+@@||x.ai^
+@@||grok.com^
+
+# Sign-in providers
+@@||auth0.com^
+@@||okta.com^
